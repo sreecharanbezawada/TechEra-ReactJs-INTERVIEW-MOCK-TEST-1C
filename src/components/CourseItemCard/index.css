@@ -1,0 +1,29 @@
+/* index.css */
+
+.course-link {
+  text-decoration: none;
+  color: inherit; /* You can change the color to match your design */
+}
+
+.course-card {
+  list-style: none;
+  background-color: #ffffff; /* Background color of the course card */
+  border: 1px solid #e0e0e0; /* Border color */
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift effect */
+}
+
+.course-logo {
+  max-width: 100px; /* Adjust the max-width as needed */
+  height: auto;
+  margin-bottom: 8px; /* Spacing between the logo and course name */
+}
+
+.course-name {
+  font-size: 18px; /* Adjust the font size as needed */
+  font-weight: bold; /* Make the course name bold if desired */
+  margin: 0;
+}
